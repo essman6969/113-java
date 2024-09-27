@@ -1,4 +1,4 @@
-package cc.openhome;
+
 
 public class RandomStop {
     public static void main(String[] args) {

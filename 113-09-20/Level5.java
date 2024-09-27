@@ -1,8 +1,8 @@
-package cc.openhome;
+
 
 public class Level5 {
     public static void main(String[] args) {
-        final String warning = "¡]³á³á¡I¤£¤Î®æ¤F¡I¡^";
+        final String warning = "ï¿½]ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Î®ï¿½Fï¿½Iï¿½^";
         
         var score = 59;
         var quotient = score / 10;
@@ -16,6 +16,6 @@ public class Level5 {
                 yield message ;
             }
         };
-        System.out.printf("±o¤Àµ¥¯Å¡G%s%n", level);
+        System.out.printf("ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Å¡G%s%n", level);
     }
 }

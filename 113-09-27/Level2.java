@@ -1,12 +1,16 @@
-
+import  java.util.Scanner;
 
 public class Level2 {
     public static void main(String[] args) {
-        var score = 88;
-        var quotient = score / 10;
-        var level = '\0';
+        char level = '\0';
         
-        switch(quotient) { 
+        
+        Scanner input = new Scanner(System.in);
+        System.out.print("請輸入分數:");
+        int score =input.nextInt();
+        
+        
+        switch(score/10) { 
             case 10: 
             case 9: 
                 level = 'A';
@@ -23,6 +27,6 @@ public class Level2 {
             default: 
                 level = 'E';
         }
-        System.out.printf("�o�����šG%c%n", level);
+        System.out.printf("得分等級:%c%n", level);
     }
 }

@@ -1,20 +1,20 @@
-package cc.openhome;
+
 
 public class Bitwise {
     public static void main(String[] args) {
-        System.out.println("AND ¹Bºâ¡G"); 
+        System.out.println("AND ï¿½Bï¿½ï¿½G"); 
         System.out.printf("0 AND 0 %5d%n", 0 & 0);
         System.out.printf("0 AND 1 %5d%n", 0 & 1); 
         System.out.printf("1 AND 0 %5d%n", 1 & 0); 
         System.out.printf("1 AND 1 %5d%n", 1 & 1); 
 
-        System.out.println("\nOR ¹Bºâ¡G"); 
+        System.out.println("\nOR ï¿½Bï¿½ï¿½G"); 
         System.out.printf("0 OR 0 %6d%n", 0 | 0); 
         System.out.printf("0 OR 1 %6d%n", 0 | 1); 
         System.out.printf("1 OR 0 %6d%n", 1 | 0); 
         System.out.printf("1 OR 1 %6d%n", 1 | 1); 
 
-        System.out.println("\nXOR ¹Bºâ¡G"); 
+        System.out.println("\nXOR ï¿½Bï¿½ï¿½G"); 
         System.out.printf("0 XOR 0 %5d%n", 0 ^ 0); 
         System.out.printf("0 XOR 1 %5d%n", 0 ^ 1); 
         System.out.printf("1 XOR 0 %5d%n", 1 ^ 0); 

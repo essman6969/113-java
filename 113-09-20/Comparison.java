@@ -1,12 +1,12 @@
-package cc.openhome;
+
 
 public class Comparison {
     public static void main(String[] args) {
-        System.out.printf("10 >  5 µ²ªG %b%n", 10 > 5); 
-        System.out.printf("10 >= 5 µ²ªG %b%n", 10 >= 5); 
-        System.out.printf("10 <  5 µ²ªG %b%n", 10 < 5); 
-        System.out.printf("10 <= 5 µ²ªG %b%n", 10 <= 5); 
-        System.out.printf("10 == 5 µ²ªG %b%n", 10 == 5); 
-        System.out.printf("10 != 5 µ²ªG %b%n", 10 != 5);
+        System.out.printf("10 >  5 ï¿½ï¿½ï¿½G %b%n", 10 > 5); 
+        System.out.printf("10 >= 5 ï¿½ï¿½ï¿½G %b%n", 10 >= 5); 
+        System.out.printf("10 <  5 ï¿½ï¿½ï¿½G %b%n", 10 < 5); 
+        System.out.printf("10 <= 5 ï¿½ï¿½ï¿½G %b%n", 10 <= 5); 
+        System.out.printf("10 == 5 ï¿½ï¿½ï¿½G %b%n", 10 == 5); 
+        System.out.printf("10 != 5 ï¿½ï¿½ï¿½G %b%n", 10 != 5);
     }
 }
