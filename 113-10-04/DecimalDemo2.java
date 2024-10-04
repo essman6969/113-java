@@ -7,7 +7,7 @@ public class DecimalDemo2 {
         BigDecimal op3 = new BigDecimal("0.1");
         BigDecimal result = new BigDecimal("0.3");
         
-        if(op1.add(op2).add(op3).equals(result)) {
+        if(op1.add(op2).add(op3).compareTo(result) == 0) {
             System.out.println("���� 0.3");
         }
         else {
